@@ -26,9 +26,9 @@ from urllib.parse import unquote
 
 bot = Client(
     "Utkarsh",
-    bot_token=os.environ.get("BOT_TOKEN"),
-    api_id=int(os.environ.get("API_ID")),
-    api_hash=os.environ.get("API_HASH")
+    bot_token=os.environ.get("7596860399:AAFIiwuADW6N0Mt8i_H4l8cfnq6oAH0OyVY"),
+    api_id=int(os.environ.get("24954614")),
+    api_hash=os.environ.get("854d71e266722a054d214898c754c70b")
 )
 @bot.on_message(filters.command(["start"]))
 async def start(bot, update):
